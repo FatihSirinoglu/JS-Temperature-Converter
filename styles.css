@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(173, 221, 230),rgb(139, 35, 0));
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.1);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temperature{
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bolder;
+    color: dark;
+}
+.input{
+    padding: 5px;
+    width: 220px;
+    float: right;
+    outline: none;
+    background-color: aliceblue;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.heading {
+    letter-spacing: 2px;
+    /* to change the letter color to yellow to red , we need to define webkit background kit and background kit as padding-box, otherwise browser doesnt work correctly */
+    background: linear-gradient(to right, yellow, red);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
